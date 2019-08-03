@@ -1,11 +1,11 @@
 #include <IRremote.h>   //ใช้คำสั่งรีโมท
 
-#define forward  XXXXX //ประกาศให้ชุดคำสั่งทำงานถ้าค่าที่เข้ามาตรง
-#define forward  XXXXX  //แต่ละชุดคำสั่งจะทำงานต่างกันตามที่เราเขียนใว้
-#define backward  XXXXX  //ตัวเลขที่ระบุคือเลขของค่าirที่รับมาถ้าตรงกับคำสั่งไหนก็ทำคำสั่งนั้น
-#define left  XXXXX
-#define right XXXXX 
-#define stop_button  XXXXX
+#define forward  111111 //ประกาศให้ชุดคำสั่งทำงานถ้าค่าที่เข้ามาตรง
+#define forward  22222  //แต่ละชุดคำสั่งจะทำงานต่างกันตามที่เราเขียนใว้
+#define backward  3333  //ตัวเลขที่ระบุคือเลขของค่าirที่รับมาถ้าตรงกับคำสั่งไหนก็ทำคำสั่งนั้น
+#define left  44444
+#define right 55555 
+#define stop_button  66666
 
 // ขั้วต่อสำหรับมอเตอร์ A 
 int EN_A = 13;  
